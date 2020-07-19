@@ -1,7 +1,7 @@
 Hillel homework
 mirrors:
 - git@github.com:krylov-av/hillel_homework.git
-- bitbucket
+- https://krylov_a@bitbucket.org/krylov_a/hillel_homework.git
 - git@gitlab.com:krylov_av/hillel_homework.git
 
 Fill the database:
