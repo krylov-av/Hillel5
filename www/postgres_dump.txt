@@ -1,0 +1,15 @@
+DROP TABLE IF EXISTS "products";
+DROP SEQUENCE IF EXISTS products_id_seq;
+CREATE SEQUENCE products_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 2147483647 START 1 CACHE 1;
+
+CREATE TABLE "public"."products" (
+    "id" integer DEFAULT nextval('products_id_seq') NOT NULL,
+    "name" character(127) NOT NULL
+) WITH (oids = false);
+
+INSERT INTO "products" ("id", "name") VALUES
+(1,	'Product 1'),
+(2,	'Product 2'),
+(3,	'Phone 1'),
+(4,	'Car 1'),
+(5,	'Star 1');
