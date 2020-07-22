@@ -11,8 +11,11 @@ and insert there data from
 www/postgres_dump.txt
 
 
-In this project exists 2 pages:
-- phpinfo
+In this project exists 2 variants of class "Color" for using colors in project.
+- index.php
     http://localhost
-- test postgress query
-    http://localhost/pg.php
+     Here we use class "byte" for save storing data. Using this class we restrict data
+     in class "Color".
+- index1.php
+    http://localhost/index1.php
+     Here we use only one class "Color" and filter data inside of this class.
